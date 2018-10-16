@@ -5,7 +5,7 @@
 }
 h2 {
     font-size: 2.3em;
-
+    
 }
 a {
     font-size: 1.3em;
@@ -21,17 +21,13 @@ section {
 }
 article {
     margin: 20px;
-    width: 600px;
-    height: 500px;
+    width: 450px;
+    height: 400px;
     box-shadow: 5px 5px 5px rgb(240, 240, 240);
     border-radius: 5px;
-
-    /* border: 5px solid rgb(240, 240, 240);
-    border-top: none;
-    border-radius: 5px; */
 }
 img {
-    height: 350px;
+    height: 250px;
     width: 100%;
 }
 figcaption {
@@ -48,6 +44,32 @@ figcaption {
     padding-top: 7%;
     margin: 0px;
 }
-li {
-    
+/* pour un ecran jusqu'à 1920px, pc */
+@media screen and (max-width: 1920px) {
+    section {
+        background-color: grey;
+    }
+    article {
+        width: 25%;
+    }
+}
+/* pour un ecran jusqu'à 992px tablette*/
+@media screen and (max-width: 992px) {
+    section {
+        background-color: black;
+    }
+    article {
+        width: 40%;
+        color: white;
+    }
+}
+/* pour un ecran jusqu'à 600px, mobile*/
+@media screen and (max-width: 600px) {
+    section {
+        background-color: white;
+    }
+    article {
+        width: 100%;
+        color: black;
+    }
 }
