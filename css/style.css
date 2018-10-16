@@ -50,6 +50,7 @@ figcaption {
         background-color: grey;
     }
     article {
+        background-color: white;
         width: 25%;
     }
 }
@@ -60,7 +61,7 @@ figcaption {
     }
     article {
         width: 40%;
-        color: white;
+        background-color: white;
     }
 }
 /* pour un ecran jusqu'à 600px, mobile*/
@@ -70,6 +71,6 @@ figcaption {
     }
     article {
         width: 100%;
-        color: black;
+        background-color: white;
     }
 }
